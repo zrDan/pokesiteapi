@@ -16,7 +16,7 @@ const newpokemonSchema = new mongoose.Schema(
       type: Object,
       trim: true,
     },
-    Types: {
+    elemental: {
       type: String,
       trim: true,
       require: true,
