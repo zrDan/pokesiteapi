@@ -27,8 +27,7 @@ mongoose
   .catch((err) => console.log(err));
 
 //Routes
-// app.use("/api/videogame", require("./src/routes/videogames"));
-// app.use("/api/console", require("./src/routes/consoles"));
+app.use("/api/newpokemon", require("./src/routes/newpokemons"));
 app.use("/api/auth", require("./src/routes/auth"));
 
 //Server
